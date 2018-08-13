@@ -1,0 +1,24 @@
+Beast.decl({
+    Example: {
+        expand: function () {
+            this.append(
+                'Example is here!',
+                <wrap>
+                    <button Bold/>
+                    <button/>
+                </wrap>
+            )
+        }
+    },
+    Example__button: {
+        tag: 'button',
+        expand: function () {
+            this.mod('bold') ? this.append('Bold!') : this.append('Regular!')
+        },
+        on: {
+            click: function () {
+                alert(this.text())
+            }
+        }
+    }
+})

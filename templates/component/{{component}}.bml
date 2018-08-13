@@ -1,0 +1,7 @@
+Beast.decl({
+    {{component}}: {
+        expand: function () {
+            this.append('{{component}} is here!')
+        }
+    }
+})

@@ -3,10 +3,7 @@ module.exports = () => {
     let config = {
         source: {
             js: `./components/**/*.bml`,
-            css: [
-                `./components/App/**/*.styl`,
-                './components/**/*.styl'
-            ],
+            css: `./components/**/*.styl`,
             libs: `./libs/**/*.js`,
             assets: `./assets/**/*`,
             html: `./pages/**/*.html`
@@ -18,7 +15,8 @@ module.exports = () => {
                 styl: __dirname + `/templates/component/{{component}}.styl`
             },
             init: __dirname + `/templates/init/**/*`,
-            page: __dirname + `/templates/page/{{page}}.html`
+            page: __dirname + `/templates/page/{{page}}.html`,
+            taming: __dirname + `/templates/init/taming.json`
         }
     }
 

@@ -1,5 +1,11 @@
 {
     "name": "taming",
-    "version": "0.1.5",
-    "npm": "https://www.npmjs.com/package/taming"
+    "version": "0.2.0",
+    "npm": "https://www.npmjs.com/package/taming",
+    "source": {
+        "css": [
+            "./components/App/**/*.styl",
+            "./components/**/*.styl"
+        ]
+    }
 }

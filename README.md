@@ -16,7 +16,7 @@ Taming is the environment for UI prototyping with Beast.js and Stylus.
 ### Commands
 
 - `$ taming init` - Work directory initialization or update
-- `$ taming new` - Create new component or page
+- `$ taming new [component|c|page|p]/<name>` - Create new component or page
 - `$ taming start [options]` - Start builder and server
 - `$ taming build [options]` - Build project
 
@@ -82,3 +82,6 @@ You may define a list of directories or files to exclude from building. Use `!` 
     - Building order in taming.json
     - Building exceptions in taming.json
     - Initialization & updating refactoring
+
+- **0.3.0**
+    - Adding options for `$taming new` 

@@ -34,7 +34,7 @@ switch (argv._[0]) {
     case 'n':
     case 'new':
         exists.taming((exist) => {
-            exist ? create.new() : initFirst()
+            exist ? create.new(argv._[1]) : initFirst()
         })
         break
     case 's':
@@ -67,10 +67,10 @@ switch (argv._[0]) {
         break
     default:
         console.log('Usage: taming <command> [options]\n')
-        console.log('   $ taming init              Work directory initialization or update')
-        console.log('   $ taming new               Create new component or page')
-        console.log('   $ taming start [options]   Start builder and server')
-        console.log('   $ taming build [options]   Build project\n')
+        console.log('   $ taming init                           Work directory initialization or update')
+        console.log('   $ taming new [component|page]/<name>    Create new component or page')
+        console.log('   $ taming start [options]                Start builder and server')
+        console.log('   $ taming build [options]                Build project\n')
         console.log('Options\n')
         console.log('   --port=<XXXX>      Set server port')
         console.log('   --watch            Reload browser page after changes\n')

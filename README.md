@@ -84,4 +84,7 @@ You may define a list of directories or files to exclude from building. Use `!` 
     - Initialization & updating refactoring
 
 - **0.3.0**
-    - Adding options for `$taming new` 
+    - Adding options for `$taming new`
+
+- **0.3.1**
+    - Dependencies update 

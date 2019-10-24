@@ -87,4 +87,7 @@ You may define a list of directories or files to exclude from building. Use `!` 
     - Adding options for `$taming new`
 
 - **0.3.1**
-    - Dependencies update 
+    - Dependencies update
+
+- **0.3.2**
+    - Bug fixes & minor improvements

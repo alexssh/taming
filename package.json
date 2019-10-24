@@ -1,6 +1,6 @@
 {
     "name": "taming",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "Taming is the environment for UI prototyping with Beast.js and Stylus.",
     "keywords": [
         "environment",
